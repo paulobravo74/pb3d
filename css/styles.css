@@ -10,6 +10,37 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+.logoLink {
+  width: 13rem;
+  margin-bottom: 25px;
+  border-radius: 150px;
+}
+
+.headerNew {
+  background-image: url("fotoCapa.jpg");
+  background-image: linear-gradient(rgb(159, 42, 42),rgb(255, 0, 0));
+  height: 650px;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.fotoCapa {
+  width: 100%;
+}
+
+.legendDescription {
+  background-color: #eeeeee;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 3px;
+}
+
+.software {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -90,6 +121,7 @@
     scroll-behavior: smooth;
   }
 }
+
 
 body {
   margin: 0;
