@@ -55,6 +55,10 @@
 }
 
 .masthead-subheading {
+  background-color: #d1d1d1;
+  opacity: 0.75;
+  padding-left: 15px;
+  padding-right: 15px;
   color: red;
   font-weight: bolder;
   font-size: large;
