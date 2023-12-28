@@ -20,7 +20,7 @@
 .headerNew {
   background: url("2102_Ext_Dia_Cam02_00000_PS.jpg") no-repeat center;
   display: flex;
-  margin-top: 100px;
+  margin-top: 75px;
   padding-top: 100px;
   color: rgb(0, 0, 0);
  
@@ -56,7 +56,6 @@
 
 .masthead-subheading {
   background-color: #d1d1d1;
-  opacity: 0.75;
   padding-left: 15px;
   padding-right: 15px;
   color: red;
@@ -66,6 +65,10 @@
 
 .masthead-subheading-3D {
   color: #000;
+}
+
+.opacity-75 {
+  opacity: 0.75;
 }
 
 :root {
@@ -10890,7 +10893,7 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 2rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
